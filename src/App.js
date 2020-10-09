@@ -26,7 +26,7 @@ const Contact = () => {
 
 const Show404 = () => {
   return (
-    <h1>404 not found</h1>
+    <h2>404 not found</h2>
   )
 }
 
