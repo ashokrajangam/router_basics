@@ -23,17 +23,13 @@ const Contact = () => {
   )
 }
 
-const NotAshok = () => { 
-    return (
-      <h1>Not ashok</h1>
-    )
-}
 
 const Show404 = () => {
   return (
     <h1>404 not found</h1>
   )
 }
+
 
 
 class App extends React.Component{
@@ -60,7 +56,6 @@ class App extends React.Component{
         <Fragment>
         <Route path='/about/:name' component={About} />
         <Route path='/contact' component={Contact} />
-        <Route path='/notAshok' component={NotAshok} />        
         </Fragment>
         :<Redirect to='/' />  
         }      
